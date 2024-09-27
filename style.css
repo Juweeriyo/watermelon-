@@ -1,0 +1,182 @@
+body{
+    background: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.continer{
+width: 90%;
+margin: auto;
+overflow: hidden;
+
+}
+header{
+   
+    color: #ffff;
+}
+header .logo{
+    float: left;
+    font-size: 20px;
+    font-weight: 900px;
+}
+header nav {
+    float: right;
+    margin-top: 35px;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+}
+header li{
+display: inline;
+text-decoration: none;
+padding: 0 20px 0 20px;
+}
+header a {
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+}
+header .curent a:hover {
+    color: #D90404;
+    text-decoration: underline;
+}
+.hilight{
+    font-size: 50px;
+    color: #D90404;
+}
+.section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/gaza.jpg");   
+/* background-repeat: no-repeat; */
+background-size: cover;
+height: 500px;
+}
+.texs{
+    text-align: center;
+    color: #A60303;
+    text-transform:capitalize;
+    margin-top: 70px;
+    margin-left: 140px;
+    font-size: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+ .second-text {
+   font-size:30px;
+   font-weight: 700;
+   color:#A60303;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+ }
+
+ .theird-text{
+    color: #A60303;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: bold;
+    
+ }
+/* about.css */
+.text-about{
+    font-size: 30px;
+    font-weight: 700;
+    color: #404040;
+}
+.span-for-gaza{
+    color: #D90404;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px 20px;
+    
+ }
+
+ .box{
+   
+    width:300px;
+    height: 400px;
+    color:#737373 ;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+ }
+ .box:hover{
+    box-shadow: 10px 10px 5px rgba(137, 248, 187, 0.3) ;
+    margin-top: 3px;
+ }
+ .box:active{
+    transform: scale(1.1);
+
+ }
+ .box img {
+    width: 290px;
+    border-radius: 15px;
+   
+ }
+ .box a {
+     text-decoration: none;
+     color: #404040;
+ }
+
+ /* donation */
+
+   
+  .text-donation{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .donation-span{
+    color: #D90404;
+  }
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, #payment-method, #message {
+    width: 1100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #737373;
+    height: 40px;
+}
+ 
+
+.donation-amount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation-amount input {
+    width: 30%;
+}
+
+input[type="submit"] {
+    background-color: #D90404;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #A60303;
+}
+ 
+ footer{
+  background:#802910 ;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+ }
+ footer a {
+    text-decoration: none;
+    color: #ffffff;
+ }

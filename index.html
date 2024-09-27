@@ -1,0 +1,151 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <section class="section1">
+   <header>
+    <div class="continer">
+      <div class="logo"> <h1><span class="hilight">w</span>atermilon</h1> </div>
+<nav>
+    <ul>
+       <li class="curent"> <a href="#section1" class="hom" >Home</a> </li>
+       <li class="curent"> <a href="#section2" class="abou">About</a>   </li>
+       <li class="curent"> <a href="#section3" class="don">donations</a> </li>
+    </ul>
+</nav>
+</div>
+   </header>
+   
+<div class="continer">
+    <div class="texs">
+       <h1 class="main-text">GAZA<span class="second-text"> strip</span>  </h1>
+       <p class="theird-text">all what you want to know <br>about gaza</p>
+    </div>
+    </div>
+</section>
+
+
+
+<section id="section2">
+    <div class="continer">
+       <h1 class="text-about">About <span class="span-for-gaza">Gaza</span></h1> 
+
+        <div class="boxes">
+      
+        <div class="box">
+          <a href="suaasha 1aad.html" target="_blank">  <img src="images/cunug.jpg" width="100px" alt=""> </a>
+            <a href="suaasha 1aad.html"> <h3>jihaadka reer falastin</h3></a>
+            <p>Hawlgalka Daadka Al-Aqsa, ama Dagaalkii Falastiin iyo Israa'iil,  ilaha qaar ay  ku ma ga caabaan
+                " Intifada Saddexaad" </p>
+        </div>
+    
+    
+        <div class="box">
+            <a href="suaasha 2aad.html" target="_blank"> <img src="images/qubz.jpg"  width="100px" alt=""> </a>
+                <a href="suaasha 2aad.html"> <h3>cunaan rear Gaza</h3> </a>
+          <p>Xulashada cuntada ee marinka Qaza ayaa noqotay mid xaddidan, marka loo eego xaaladaha dagaal ee hadda
+            jira</p>
+        </div>
+    
+    
+        <div class="box">
+            <a href="suaasha 3aad.html" target="_blank">  <img src="images/quds.jpg"  width="100px" alt=""> </a>
+                <a href="suaasha 3aad.html"> <h3>xarakada xamaas </h3> </a>
+            <p>Dhaqdhaqaaqa Xamaas ama (The Islamic Resistance Movement, oo loo yaqaan Xamaas si kooban) waa 
+                dhaqdhaqaaq siyaasadeed </p>
+        </div>
+    
+    
+    
+        <div class="box">
+            <a href="suaasha 4aad.html" target="_blank">  <img src="images/dad.jpg"  width="100px" alt=""> </a>
+                <a href="suaasha 4aad.html"> <h3>boycott ama muqaadaco</h3> </a>
+            <p> Qaadacadu waa ka fogaansho ikhtiyaari ah iyo ula kac ah isticmaalka, gadashada, ama la macaamilka qof,
+                 urur,</p>
+        </div>
+    
+       
+        <div class="box">
+            <a href="suaasha 5aad.html" target="_blank">  <img src="images/kabo.jpg"  width="100px" alt=""> </a>
+                <a href="suaasha 5aad.html"> <h3>faa'iidada muqaadacada </h3> </a>
+            <p>Shucuubta caalamka ayaa ka soo horjeestay xasuuqa lagu hayo marinka Qaza iyagoo abaabulay mudaaharaadyo
+                <br> ka dhan ah</p>
+        </div>  
+        <div class="box">
+            <a href="suaasha 5aad.html" target="_blank"> <img src="images/kabo.jpg"  width="100px" alt=""></a>
+            <a href="suaasha 5aad.html"> <h3>faa'iidada muqaadacada </h3> </a>
+            <p>Shucuubta caalamka ayaa ka soo horjeestay xasuuqa lagu hayo marinka Qaza iyagoo abaabulay mudaaharaadyo
+                <br> ka dhan ah </p>
+        </div> 
+    
+    </div>
+    </div>
+    </section>
+
+    <section id="section3">
+        <div class="continer">
+        <h1 class=" text-donation"> <span class="donation-span" > online  </span> donation</h1>
+    
+  
+        
+
+        
+            
+            <form action="/submit-donation" method="post">
+                
+               
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+             
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+             
+                <label>Donation Amount:</label>
+                <div class="donation-amount">
+                    <input type="radio" id="amount1" name="amount" value="25">
+                    <label for="amount1">$25</label>
+                    
+                    <input type="radio" id="amount2" name="amount" value="50">
+                    <label for="amount2">$50</label>
+        
+                    <input type="radio" id="amount3" name="amount" value="100">
+                    <label for="amount3">$100</label>
+                </div>
+        
+            
+                <label for="custom-amount">Or enter a custom amount:</label>
+                <input type="number" id="custom-amount" name="custom-amount" min="1" placeholder="Enter custom amount">
+        
+               
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                </select>
+        
+              
+                <label for="message">Message (optional):</label>
+                <textarea id="message" name="message" rows="4" placeholder="Leave a message with your donation..."></textarea>
+                
+            
+                <input type="submit" value="Donate Now">
+        
+            </form>
+        </div>
+    </section>
+ <footer>   <a href="https://github.com/Juweeriyo" >jooj-taajir Web Deisgn, Copyright &copy; 2024 </a></footer>
+</body>
+</html>
